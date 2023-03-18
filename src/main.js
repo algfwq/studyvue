@@ -5,6 +5,7 @@ import fuck from './fuck.vue'
 import ajax from './ajax.vue'
 import style from './style.vue'
 import test from  './test.vue'
+import websocket from './websocket.vue'
 
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
@@ -15,6 +16,7 @@ createApp(fuck).use(ElementPlus).mount('#fuck')
 createApp(ajax).use(ElementPlus).mount("#ajax")
 createApp(style).use(ElementPlus).mount("#style")
 createApp(test).use(ElementPlus).mount("#test")
+createApp(websocket).use(ElementPlus).mount("#websocket")
 
 app.use(ElementPlus)
 app.mount('#app')
